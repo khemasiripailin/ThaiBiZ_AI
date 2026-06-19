@@ -3,12 +3,11 @@ pandas>=2.0
 numpy>=1.24
 plotly>=5.20
 duckdb>=1.0
-python-dotenv>=1.0
-google-generativeai>=0.7
+pyarrow
 openpyxl>=3.1
 xlrd>=2.0
-duckdb
-pyarrow
+python-dotenv>=1.0
 google-genai
+google-generativeai>=0.7
 pymongo
 dnspython
