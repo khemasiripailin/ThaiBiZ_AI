@@ -12,6 +12,9 @@ import streamlit as st
 
 DATA_DIR = Path(r"C:\Users\acer\Downloads\thaibiz_streamlit_app\data")
 
+def data_files():
+    return sorted(DATA_DIR.glob("*.csv"))
+    
 MONTH_ORDER = {
     "มค": 1, "ม.ค": 1, "มกราคม": 1, "jan": 1,
     "กพ": 2, "ก.พ": 2, "กุมภาพันธ์": 2, "feb": 2,
