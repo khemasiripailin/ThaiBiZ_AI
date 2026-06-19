@@ -10,7 +10,8 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 
-DATA_DIR = Path(r"C:\Users\acer\Downloads\thaibiz_streamlit_app\data")
+BASE_DIR = Path(__file__).resolve().parent
+DATA_DIR = BASE_DIR / "data"
 
 def data_files():
     return sorted(DATA_DIR.glob("*.csv"))
