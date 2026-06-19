@@ -5,10 +5,6 @@ from data_loader import load_all_data, app_data_status
 from pathlib import Path
 import streamlit as st
 
-st.write("cwd =", Path.cwd())
-st.write("root files =", [p.name for p in Path(".").iterdir()])
-st.write("data exists =", Path("data").exists())
-st.write("csv files =", [p.name for p in Path("data").glob("*.csv")])
 
 st.set_page_config(
     page_title="ThaiBiz AI",
