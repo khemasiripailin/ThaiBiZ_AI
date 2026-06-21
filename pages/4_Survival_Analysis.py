@@ -2106,7 +2106,7 @@ with tab4:
         st.markdown("</div>", unsafe_allow_html=True)
 
 with tab5:
-    st.markdown("## 5) เดือนใดมีความเสี่ยงจากการเลิกกิจการมากที่สุด?")
+    st.markdown("## 5) ธุรกิจใดมีความเสี่ยงจากการเลิกกิจการมากที่สุด?")
     st.caption("ข้อมูล: ประเภทจัดตั้งเลิกขนาด69_quit · ช่วง ม.ค.–เม.ย. 2569")
     group_5 = st.selectbox("กลุ่มธุรกิจ", groups, key="bubble_group")
     base5 = _apply_business_filter(biz, group=group_5)
