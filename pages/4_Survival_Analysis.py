@@ -2141,7 +2141,7 @@ with tab5:
         st.markdown("</div>", unsafe_allow_html=True)
 
 with tab6:
-    st.markdown("## 6) Local Business Finder: จังหวัดนี้มีธุรกิจอะไรให้ดูจริงบ้าง?")
+    st.markdown("## 6) Local Business Finder: จังหวัดนี้มีธุรกิจอะไรเกิดขึ้นจริงบ้าง?")
     st.caption("แท็บนี้เหมาะกับบริบทของไฟล์รายชื่อจัดตั้ง/เลิก เพราะช่วยให้ผู้ใช้เลือกจังหวัดแล้วเห็นธุรกิจที่มีข้อมูลจริง ไม่ต้องสุ่มเลือกจนเจอค่าว่าง")
 
     detail6 = province_detail_data()
